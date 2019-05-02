@@ -21,4 +21,19 @@ for (i = 1:M*N)
     dB(i,:) = vecB(i) - vecB(:);
 end
 myAffinityMat(:,:) = 1./exp(sqrt(dR.^2 + dG.^2 + dB.^2));
+D = sum(myAffinityMat(:,:));
+D = diag(D);
+L = myAffinityMat - D;
+k = 2;
+[U,E] = eigs(L,k,'sm');
+
+
+
+
+
+
+
+
+
+
 toc
