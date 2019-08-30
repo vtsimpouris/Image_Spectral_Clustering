@@ -10,5 +10,6 @@ Ncuts is a graph based metric used alongside basic clustering algorithms (like k
 in order to segment parts of an image.
 
 Example of Image Segmentation:
+
 ![alt text](https://github.com/vtsimpouris/Image_Spectral_Clustering/blob/master/demo3c.jpg)
-Left is original images, rights is the colored clusters
+                        Left is original images, rights is the colored clusters
